@@ -1,5 +1,5 @@
 class s3cmd {
-  include apt
+  include homebrew
 
   package { 's3cmd':
     ensure  => 'installed',
